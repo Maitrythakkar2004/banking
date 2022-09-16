@@ -6,6 +6,7 @@ if(!isset($_SESSION['cashId'])){ header('location:login.php');}
 <html>
 <head>
   <title>Banking</title>
+  <!-- comment -->
   <?php require 'assets/autoloader.php'; ?>
   <?php require 'assets/db.php'; ?>
   <?php require 'assets/function.php'; ?>
